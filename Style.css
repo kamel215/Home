@@ -1,0 +1,240 @@
+.link1 {
+    padding: 2% 2%;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(215, 151, 251), rgb(131, 131, 249));
+    box-shadow: 2px 2px 3px #000000b4;
+    margin: 1% 46% 1%;
+    
+}
+.link1:hover {
+    color: #0d0d0d;
+    box-shadow: 0 0px 20px rgb(43, 83, 245);
+}
+/*    صفحة2    */
+
+.container {
+    width: 95%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(194, 191, 191, 0.98);
+    border-radius: 30px;
+    background: linear-gradient(#9ea8d9, #7791d9);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 2% 10%;
+    padding: 1%;
+}
+
+#logo {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 34px;
+    margin: 2%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+nav ul li {
+    display: flex inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    color: #0d0d0d;
+    background:  #fdfefe;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 80%;
+    margin: 1% 10%;
+}
+
+#content #text {
+    color: #fff;
+    width: 40%;
+}
+
+#content #text h2 {
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+#content #text p {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+#icon {
+    width: 100%;
+    display: flex;
+    margin-top: 6%;
+}
+
+#icon img {
+    width: 45px;
+}
+
+/* صفحة 3 */
+
+.t2 {
+    margin: 1% 5% 1%;
+    padding: 1%;
+    width: 90%;
+    border-radius: 10px;
+    border-color: rgb(132, 140, 251);
+    box-shadow: 5px 5px 5px rgb(1, 27, 104);
+}
+
+.t2 td {
+    border-radius: 5px;
+    background-color: rgba(213, 249, 249, 0.917);
+    padding: auto;
+    text-align: center;
+    color: rgb(20, 20, 20);
+    font-size: 30px;
+}
+
+th {
+    background-color: rgb(143, 228, 231);
+    border-radius: 10px;
+    padding: auto;
+    text-align: center;
+    color: rgb(40, 39, 39);
+    font-size: 36px;
+}
+
+.t2 input {
+    transform: scale(2);
+}
+
+input {
+    margin: 2%;
+    transform: scale(2);
+    width: 46%;
+    text-align: center;
+    font-size: 2;
+    border-radius: 5px;
+
+}
+
+button {
+    width: 98%;
+    font-size: 35px;
+    border-radius: 5px;
+    background-color: rgb(72, 72, 72);
+    color: rgb(22, 22, 22);
+    border: 2px solid rgb(102, 102, 246);
+    background-image: linear-gradient(rgb(165, 149, 252), rgb(114, 114, 233));
+    margin: 1%;
+}
+
+.table3 {
+    width: 70%;
+    margin: 1% 13% 1%;
+    padding: 1%;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(26, 26, 26);
+    border-color: rgb(132, 64, 241);
+}
+
+td {
+    padding: 1%;
+    border-radius: 10px;
+    align-items: center;
+}
+
+form {
+    border-radius: 10px;
+    font-size: 35px;
+    color: rgb(36, 36, 36);
+    display: none;
+    text-align: center;
+}
+
+.btn2 {
+    width: 48%;
+    margin: 1% 20% 1%;
+}
+
+td div {
+    width: 100%;
+    height: 100%;
+}
+
+.t2 img {
+    width: 30%;
+    height: 15%;
+    margin: auto;
+}
+
+.div1 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: auto;
+    margin: auto;
+}
+
+h2 {
+    margin: 1% 5% 1%;
+    font-size: 22px;
+}
+
+.di1 {
+    display: flow-root;
+    flex-direction: row-reverse;
+}
+
+.art {
+    display: flex;
+
+}
+
+.captcha {
+    display: flex;
+    align-items: center;
+    margin: 1% 44% 1%;
+}
+
+.title {
+    font-size: 13px;
+    text-align: center;
+    color: rgb(49, 49, 49);
+    background-image: linear-gradient(rgb(142, 156, 252), rgb(107, 215, 245));
+    /* background-color: rgb(55, 170, 170); */
+    width: 96%;
+    border-radius: 20px;
+    margin: 2% 2% 0%;
+    border: 2px solid rgb(110, 133, 250);
+}
+
+.tag {
+    margin-right: 28%;
+    padding: 1%;
+    font-size: 18px;
+    color: rgb(54, 53, 53);
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(245, 194, 245), rgb(142, 184, 236));
+}
+
+.tag:hover {
+    color: #0d0d0d;
+    box-shadow: 0 0px 20px rgb(83, 116, 249);
+    background-image: linear-gradient(rgb(244, 134, 244), rgb(113, 170, 239));
+}

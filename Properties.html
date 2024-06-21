@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <script src="jquery-3.7.1.js"></script>
+    <title>Properties</title>
+    <style>
+        body {
+            background-color: rgb(210, 211, 246);
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+
+            $('.in1').click(function () {
+                $('.tr1').fadeToggle(1000)
+            })
+            $('.in2').click(function () {
+                $('.tr2').fadeToggle(1000)
+            })
+            $('.in3').click(function () {
+                $('.tr3').fadeToggle(1000)
+            })
+            $('.in4').click(function () {
+                $('.tr4').fadeToggle(1000)
+            })
+            $('.in5').click(function () {
+                $('.tr5').fadeToggle(1000)
+            })
+            $('.in6').click(function () {
+                $('.tr6').fadeToggle(1000)
+            })
+            $('.in7').click(function () {
+                $('.tr7').fadeToggle(1000)
+            })
+            $('.in8').click(function () {
+                $('.tr8').fadeToggle(1000)
+            })
+            $('.in9').click(function () {
+                $('.tr9').fadeToggle(1000)
+            })
+            $('.in10').click(function () {
+                $('.tr10').fadeToggle(1000)
+            })
+            $('.btn1').click(function () {
+                $('.form').slideToggle(1000)
+            })
+        })
+    </script>
+</head>
+<body>
+ <br>
+      <b><a class="tag" href="index.html">Home</a></b>  
+      <b><a class="tag" href="AboutUs.html">AboutUs</a></b> 
+      <div class="title">
+        <h1><b>العقارات</b></h1>
+      </div>
+    <table class="t2" border="4">
+        <thead>
+            <th>المدينة</th>
+            <th>تفاصيل</th>
+            <th>الإيجار الشهري</th>
+            <th>إظهار التفاصيل</th>
+            <th>اختيار</th>
+        </thead>
+        <tr>
+            <td>حمص</td>
+            <td>مزرعة</td>
+            <td> ل.س 1000000</td>
+            <td> <input class="in1" type="checkbox"></td>
+            <td><input type="radio" name="radio" id="di1"></td>
+        </tr>
+        <tr class="tr1" style="display: none;">
+            <th colspan="5">
+                <div>
+                    <div class="di1">
+                        <div class="art">
+                            <h2>المواصفات: غرفتين وصالون وحديقة</h2>
+                            <h2>الملاحظات والمميزات: باركينغ وبوابة خارجية على الكهرباء</h2>
+                            <h2>المنطقة:وادي الذهب</h2>
+                        </div>
+                        <div class="art">
+                            <h2>الملكية:طابو اخضر</h2>
+                            <h2>الاتجاه: قبلي شرقي غربي</h2>
+                            <h2>مساحة:مساحة داخلية 110 متر ومساحة الحديقة 300 متر</h2>
+                        </div>
+                    </div>
+                    <div class="div1">
+                        <img src="pictures\1.1.jpeg" alt="">
+                        <img src="pictures\1.2.jpeg" alt="">
+                        <img src="pictures\1.3.jpeg" alt="">
+                    </div>
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <td>دمشق</td>
+            <td>شقة سكنية </td>
+            <td> ل.س 800000</td>
+            <td> <input class="in2" type="checkbox"></td>
+            <td><input type="radio" name="radio" id="di2"></td>
+        </tr>
+        <tr class="tr2" style="display: none;">
+            <th colspan="5">
+                <div>
+                    <div class="di2">
+                        <div class="art">
+                            <h2>الطابق: طابق ثالث مع مصعد </h2>
+                            <h2>التوزيع : غرفتين وصالون ومطبخ ومنافع وبلكون</h2>
+                            <h2>المنطقة: ساحة الميسات</h2>
+                        </div>
+                        <div class="art">
+                            <h2>الملكية:طابو اخضر </h2>
+                            <h2>الاتجاه: قبلي شرقي غربي </h2>
+                            <h2>مساحة: 120 متر </h2>
+                        </div>
+                    </div>
+                    <div class="div1">
+                        <img src="pictures\2.1.jpg" alt="">
+                        <img src="pictures\2.2.jpg" alt="">
+                        <img src="pictures\2.3.jpg" alt="">
+                    </div>
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <td> اللاذقية</td>
+            <td>منزل ارضي</td>
+            <td> ل.س 700000</td>
+            <td> <input class="in3" type="checkbox"></td>
+            <td><input type="radio" name="radio" id="di3"></td>
+        </tr>
+        <tr class='tr3' style="display: none;">
+            <th colspan="5">
+                <div>
+                    <div class="di3">
+                        <div class="art">
+                            <h2>الطابق: ارضي </h2>
+                            <h2>التوزيع: صالون و2غرف وحديقة ومنافع ومطبخ </h2>
+                            <h2>المنطقة: جبلة</h2>
+                        </div>
+                        <div class="art">
+                            <h2>الملكية:طابو اخضر</h2>
+                            <h2>الاتجاه: قبلي شرقي غربي</h2>
+                            <h2>مساحة: 200 متر </h2>
+                        </div>
+                    </div>
+                    <div class="div1">
+                        <img src="pictures\3.1.jpg" alt="">
+                        <img src="pictures\3.2.jpg" alt="">
+                        <img src="pictures\3.3.jpg" alt="">
+                    </div>
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <td>دمشق</td>
+            <td>شقة سكنية </td>
+            <td> ل.س 900000</td>
+            <td> <input class="in4" type="checkbox"></td>
+            <td><input type="radio" name="radio" id="di4"></td>
+        </tr>
+        <tr class="tr4" style="display: none;">
+            <th colspan="5">
+                <div>
+                    <div class="di4">
+                        <div class="art">
+                            <h2>الطابق: اول</h2>
+                            <h2>التوزيع : 3غرف وصالون ومطبخ وحمام رئيسي</h2>
+                            <h2>المنطقة: ابو رمانة</h2>
+                        </div>
+                        <div class="art">
+                            <h2>الملكية:طابو اخضر</h2>
+                            <h2>الاتجاه: قبلي شرقي غربي</h2>
+                            <h2>مساحة: 110 متر </h2>
+                        </div>
+                    </div>
+                    <div class="div1">
+                        <img src="pictures\4.1.jpg" alt="">
+                        <img src="pictures\4.2.jpg" alt="">
+                        <img src="pictures\4.3.jpg" alt="">
+                    </div>
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <td>حلب</td>
+            <td>فيلا</td>
+            <td> ل.س 1000000</td>
+            <td> <input class="in5" type="checkbox"></td>
+            <td><input type="radio" name="radio" id="di5"></td>
+        </tr>
+        <tr class="tr5" style="display: none;">
+            <th colspan="5">
+                <div>
+                    <div class="di5">
+                        <div class="art">
+                            <h2>المواصفات :الفيلا 3غرف وصالون وغرفة طعام وحمام ماستر وحمام رئيسي ومطبخ وانتري كبير</h2>
+                            <h2>المميزات :باركينغ وحديقة مزروعة وباربكيو ومزودة بطاقة شمسية</h2>
+                            <h2>المنطقة: الشهباء</h2>
+                        </div>
+                        <div class="art">
+                            <h2>الملكية:طابو اخضر</h2>
+                            <h2>الاتجاه: قبلي شرقي غربي</h2>
+                            <h2>مساحة: 300 متر </h2>
+                        </div>
+                    </div>
+                    <div class="div1">
+                        <img src="pictures\5.1.jpg" alt="">
+                        <img src="pictures\5.2.jpg" alt="">
+                        <img src="pictures\5.3.jpg" alt="">
+                    </div>
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <td>دمشق</td>
+            <td>شقة سكنية فارغة</td>
+            <td> ل.س 500000</td>
+            <td> <input class="in6" type="checkbox"></td>
+            <td><input type="radio" name="radio" id="di6"></td>
+        </tr>
+        <tr class="tr6" style="display: none;">
+            <th colspan="5">
+                <div>
+                    <div class="di6">
+                        <div class="art">
+                            <h2>الطابق: طابق ثالث </h2>
+                            <h2>التوزيع : 3 غرف وصالون وحمام ومطبخ</h2>
+                            <h2>المنطقة: ريف دمشق ضاحية قدسيا</h2>
+                        </div>
+                        <div class="art">
+                            <h2>الملكية:طابو اخضر</h2>
+                            <h2>الاتجاه: قبلي شرقي غربي</h2>
+                            <h2>مساحة: 180 متر </h2>
+                        </div>
+                    </div>
+                    <div class="div1">
+                        <img src="pictures\6.1.jpg" alt="">
+                        <img src="pictures\6.2.jpg" alt="">
+                        <img src="pictures\6.3.jpg" alt="">
+                    </div>
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <td>حمص</td>
+            <td>منزل ارضي</td>
+            <td> ل.س 800000</td>
+            <td> <input class="in7" type="checkbox"></td>
+            <td><input type="radio" name="radio" id="di7"></td>
+        </tr>
+        <tr class="tr7" style="display: none;">
+            <th colspan="5">
+                <div>
+                    <div class="di7">
+                        <div class="art">
+                            <h2>الطابق: ارضي</h2>
+                            <h2>التوزيع:غرف عدد3 وصالون غرفة طعام ومطبخ ومنافع</h2>
+                            <h2>المنطقة: حمص القديمة</h2>
+                        </div>
+                        <div class="art">
+                            <h2>الملكية:طابو اخضر</h2>
+                            <h2>الاتجاه: قبلي شرقي غربي</h2>
+                            <h2>مساحة: 200 متر </h2>
+                        </div>
+                    </div>
+                    <div class="div1">
+                        <img src="pictures\7.1.jpg" alt="">
+                        <img src="pictures\7.2.jpg" alt="">
+                        <img src="pictures\7.3.jpg" alt="">
+                    </div>
+
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <td> دمشق</td>
+            <td>شقة سكنية فارغة</td>
+            <td> ل.س 500000</td>
+            <td> <input class="in8" type="checkbox"></td>
+            <td><input type="radio" name="radio" id="di8"></td>
+        </tr>
+        <tr class="tr8" style="display: none;">
+            <th colspan="5">
+                <div>
+                    <div class="di8">
+                        <div class="art">
+                            <h2>الطابق: طابق ثاني </h2>
+                            <h2>التوزيع: اربع غرف و2 بلكون ومطبخ ومنافع ا</h2>
+                            <h2>المنطقة: المزة</h2>
+                        </div>
+                        <div class="art">
+                            <h2>الملكية:طابو اخضر</h2>
+                            <h2>الاتجاه: قبلي شرقي </h2>
+                            <h2>مساحة: 200 متر </h2>
+                        </div>
+                    </div>
+                    <div class="div1">
+                        <img src="pictures\8.1.jpeg" alt="">
+                        <img src="pictures\8.2.jpeg" alt="">
+                        <img src="pictures\8.3.jpeg" alt="">
+                    </div>
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <td>دمشق</td>
+            <td>شقة سكنية </td>
+            <td> ل.س 600000</td>
+            <td> <input class="in9" type="checkbox"></td>
+            <td><input type="radio" name="radio" id="di9"></td>
+        </tr>
+        <tr class="tr9" style="display: none;">
+            <th colspan="5">
+                <div>
+                    <div class="di9">
+                        <div class="art">
+                            <h2>الطابق: طابق اول </h2>
+                            <h2>التوزيع : صالون و3 غرف ومطبخ ومنافع </h2>
+                            <h2>المنطقة: المهاجرين </h2>
+                        </div>
+                        <div class="art">
+                            <h2>الملكية:طابو اخضر بريء الذمة </h2>
+                            <h2>الاتجاه: قبلي شرقي غربي</h2>
+                            <h2>مساحة: 190 متر </h2>
+                        </div>
+                    </div>
+                    <div class="div1">
+                        <img src="pictures\9.1.jpeg" alt="">
+                        <img src="pictures\9.2.jpeg" alt="">
+                        <img src="pictures\9.3.jpeg" alt="">
+                    </div>
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <td>دمشق</td>
+            <td>شقة سكنية </td>
+            <td> ل.س 800000</td>
+            <td> <input class="in10" type="checkbox"></td>
+            <td><input type="radio" name="radio" id="di10"></td>
+        </tr>
+        <tr class="tr10" style="display: none;">
+            <th colspan="5">
+                <div>
+                    <div class="di10">
+                        <div class="art">
+                            <h2>الطابق: طابق خامس </h2>
+                            <h2>التوزيع: غرفتين وصالون ومطبخ ومنافع</h2>
+                            <h2>المنطقة: ركن الدين</h2>
+                        </div>
+                        <div class="art">
+                            <h2>الملكية:طابو اخضر</h2>
+                            <h2>الاتجاه: قبلي شرقي غربي</h2>
+                            <h2>مساحة: 200 متر </h2>
+                        </div>
+                    </div>
+                    <div class="div1">
+                        <img src="pictures\10.1.jpg" alt="">
+                        <img src="pictures\10.2.jpg" alt="">
+                        <img src="pictures\10.3.jpg" alt="">
+                    </div>
+                </div>
+            </th>
+        </tr>
+    </table>
+    <form class="form"  onsubmit="RR(name1.value,num_ID.value,num.value,email.value,captcha-button.value)">
+        <div>
+            <div class="title">
+                <h1><b>معلومات الزبون</b></h1>
+            </div>
+            <table class="table3" border="2">
+                <tr>
+                    <td colspan="2">
+                        <label for="name1"></label>
+                        <input type="text" id="name1" placeholder="الاسم باللغة العربية"><br>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="num_ID"></label>
+                        <input type="text" id="num_ID" placeholder="الرقم الوطني"><br>
+
+                    </td>
+                    <td>
+                        <label for="num"></label>
+                        <input type="tel" id="num" placeholder="رقم الموبايل"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email"></label>
+                        <input type="email" id="email" placeholder="إيميل"><br>
+                    </td>
+                    <td > 
+                        <label for="date"></label>
+                        <input type="date" id="date"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        <div class="captcha">
+                            <button class="captcha-button" onclick=" refreshCaptcha() ">تحديث</button>
+                            <div id="captcha">ABC123</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" id="cap"  placeholder="ادخل الرمز الذي في الاعلى"><br>
+                    </td>
+                </tr>
+            </table>
+            <button class="btn2" type="submit" onclick="RR(name1.value, num_ID.value,num.value ,email.value ,cap.value)">ارسال</button>
+        </div>
+    </form>
+    <button class="btn1" disabled>متابعة</button><br> <br>
+    <script src="jquery-3.7.1.js"></script>
+    <script src="my Functions.js"></script>
+</body>
+</html>
